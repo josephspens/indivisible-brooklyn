@@ -1,0 +1,22 @@
+%button {
+  border-radius: 1px;
+  display: block;
+  padding: 0.5em 1em;
+  background-color: $blue;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+%button-action {
+  @extend %button;
+  background-color: $red;
+}
+
+.button {
+  @extend %button;
+
+  &--action {
+    @extend %button-action;
+  }
+}

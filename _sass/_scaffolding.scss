@@ -1,0 +1,58 @@
+body {
+  font-family: $font-family;
+  color: $text-color;
+  letter-spacing: .01em;
+  line-height: 1.44em;
+  font-size: 15px;
+  background-color: $blue;
+}
+
+a {
+  color: $link-color;
+}
+
+.container {
+  background-color: $off-white;
+  overflow: hidden;
+}
+
+%heading {
+  text-transform: uppercase;
+  color: $secondary-color;
+  font-weight: 400;
+  margin: 0 0 calc(0.5rem + 0.25em);
+}
+
+h1 {
+  @extend %heading;
+  color: $primary-color;
+  font-size: 93px;
+  letter-spacing: .09em;
+  line-height: .86em;
+}
+
+h2 {
+  @extend %heading;
+  font-size: 17px;
+  letter-spacing: .15em;
+  line-height: 1.09em;
+}
+
+h3 {
+  @extend %heading;
+  font-size: 17px;
+  letter-spacing: .15em;
+  line-height: 1.09em;
+}
+
+h4 {
+  @extend %heading;
+}
+
+h5 {
+  @extend %heading;
+}
+
+h6 {
+  @extend %heading;
+}

@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: $blue;
+  color: $light-grey;
+  padding: 0.5em 1.5em;
+
+  &-links {
+    display: flex;
+    font-size: 1.2em;
+    margin: 0 auto;
+
+    &--join {
+      @extend %button-action;
+      display: inline-flex;
+    }
+  }
+
+  .social-links {
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+}

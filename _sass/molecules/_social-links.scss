@@ -1,0 +1,13 @@
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0;
+
+  li a {
+    @extend %button;
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
