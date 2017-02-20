@@ -4,20 +4,29 @@
   background-color: $blue;
   color: $light-grey;
   padding: 0.5em 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
 
   &-links {
     display: flex;
     font-size: 1.2em;
-    margin: 0 auto;
+    align-items: center;
 
     &--join {
       @extend %button-action;
       display: inline-flex;
     }
+
+    a {
+      display: block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      color: inherit;
+      font-size: 0.8em;
+    }
   }
 
   .social-links {
-    margin-right: 1em;
     font-size: 1.5em;
   }
 }

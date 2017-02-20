@@ -142,7 +142,9 @@ body { font-family: Montserrat, Arial, Helvetica, sans-serif; color: black; lett
 
 a { color: #318493; }
 
-.container { background-color: #fafafa; overflow: hidden; }
+.wrapper { background-color: #fafafa; overflow: hidden; padding: 4em 0; }
+
+.container { width: 60em; margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; color: rgba(153, 11, 11, 0.73); font-weight: 400; margin: 0 0 calc(0.5rem + 0.25em); }
 
@@ -156,14 +158,15 @@ h3 { font-size: 17px; letter-spacing: .15em; line-height: 1.09em; }
 
 .button--action, .nav-links--join, footer .footer-links--join { background-color: rgba(153, 11, 11, 0.73); }
 
-.hero-image { background-image: url("/images/Indivisible Brooklyn - Hero.png"); background-size: contain; background-repeat: no-repeat; background-position: center; padding-bottom: calc(100% / 3); }
+.hero-image { background-image: url("/images/Indivisible Brooklyn - Hero.png"); background-size: contain; background-repeat: no-repeat; background-position: center; padding-bottom: calc(100% / 3); margin-top: -4em; }
 
-.calendar { display: block; margin: 0 auto 5em; }
+.calendar { display: block; margin: 0 auto; }
 
-.nav { display: flex; justify-content: space-between; background-color: #001d59; color: #ddd; padding: 0.5em 1.5em; }
-.nav-links { display: flex; font-size: 1.2em; margin: 0 auto; }
+.nav { display: flex; justify-content: space-between; background-color: #001d59; color: #ddd; padding: 0.5em 1.5em; text-transform: uppercase; letter-spacing: .15em; }
+.nav-links { display: flex; font-size: 1.2em; align-items: center; }
 .nav-links--join { display: inline-flex; }
-.nav .social-links { margin-right: 1em; font-size: 1.5em; }
+.nav-links a { display: block; padding: 0.5em 1em; text-decoration: none; color: inherit; font-size: 0.8em; }
+.nav .social-links { font-size: 1.5em; }
 
 footer { display: flex; justify-content: space-between; background-color: #001d59; color: #ddd; padding: 0.5em 1.5em; }
 footer .footer-links { display: flex; font-size: 1.2em; margin: 0 auto; }

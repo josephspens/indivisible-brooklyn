@@ -11,9 +11,15 @@ a {
   color: $link-color;
 }
 
-.container {
+.wrapper {
   background-color: $off-white;
   overflow: hidden;
+  padding: 4em 0;
+}
+
+.container {
+  width: 60em;
+  margin: 0 auto;
 }
 
 %heading {
