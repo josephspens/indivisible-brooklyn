@@ -144,7 +144,7 @@ a { color: #318493; }
 
 .wrapper { background-color: #fafafa; overflow: hidden; padding: 4em 0; }
 
-.container { width: 60em; margin: 0 auto; }
+.container { margin: 0 2em; }
 
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; color: rgba(153, 11, 11, 0.73); font-weight: 400; margin: 0 0 calc(0.5rem + 0.25em); }
 
