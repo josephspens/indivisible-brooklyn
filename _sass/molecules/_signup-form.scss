@@ -1,5 +1,5 @@
 .signup-form {
-  width: 30em;
+  max-width: 30em;
   margin: 0 auto;
   padding: 4em;
 
@@ -11,4 +11,8 @@
 
 #mc_embed_signup {
   background-color: $off-white !important;
+}
+
+.field-group-phone {
+  width: 100% !important;
 }
