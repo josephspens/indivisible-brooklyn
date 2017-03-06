@@ -173,7 +173,7 @@ footer .footer-links { display: flex; font-size: 1.2em; margin: 0 auto; }
 footer .footer-links--join { display: inline-flex; }
 footer .social-links { margin-right: 1em; font-size: 1.5em; }
 
-.signup-form { width: 30em; margin: 0 auto; padding: 4em; }
+.signup-form { max-width: 30em; margin: 0 auto; padding: 4em; }
 .signup-form h2 { text-align: center; margin: 0 -4em; }
 
 #mc_embed_signup { background-color: #fafafa !important; }
