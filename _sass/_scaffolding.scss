@@ -21,6 +21,11 @@ a {
   margin: 0 2em;
 }
 
+.text-block {
+  margin: 2em auto 0 auto;
+  width: 75%;
+}
+
 %heading {
   text-transform: uppercase;
   color: $secondary-color;
@@ -61,3 +66,4 @@ h5 {
 h6 {
   @extend %heading;
 }
+

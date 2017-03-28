@@ -146,6 +146,8 @@ a { color: #318493; }
 
 .container { margin: 0 2em; }
 
+.text-block { margin: 2em auto 0 auto; width: 75%; }
+
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; color: rgba(153, 11, 11, 0.73); font-weight: 400; margin: 0 0 calc(0.5rem + 0.25em); }
 
 h1 { color: #001d59; font-size: 93px; letter-spacing: .09em; line-height: .86em; }
