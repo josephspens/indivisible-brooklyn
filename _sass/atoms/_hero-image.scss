@@ -1,8 +1,10 @@
+$image-ratio: 4;
+
 .hero-image {
-  background-image: url('#{$base-url}/images/Indivisible Brooklyn - Hero.png');
+  background-image: url('#{$base-url}/images/IBK_NEW_LogoTest_Stacked_FINAL.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: calc(100% / 3);
+  padding-bottom: calc(100% / #{$image-ratio});
   margin-top: -4em;
 }
